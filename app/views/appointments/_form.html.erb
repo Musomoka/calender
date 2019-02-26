@@ -1,0 +1,5 @@
+<%= form_with(model: @appointment, remote: true)  do  |f|%>
+    <%= f.text_field :title, class: 'form-control'%>
+    <%= f.date_field :appt_time, class: 'form-control'%>
+    <%= f.submit'Make Appintment', class: 'btn btn-primary'%>
+<%end%>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @simple.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @simple.body %>
+</p>
+
+<%= link_to 'Edit', edit_simple_path(@simple) %> |
+<%= link_to 'Back', simples_path %>
